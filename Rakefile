@@ -1,7 +1,7 @@
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "awesome-backup"
+    s.name = "awesome_backup"
     s.summary = "Provides Rake and Capistrano tasks for making database backups"
     s.email = "dpickett@enlightsolutions.com"
     s.homepage = "http://github.com/collectiveidea/awesome-backup/tree/master"
