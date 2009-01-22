@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-01-22}
   s.description = %q{}
   s.email = %q{dpickett@enlightsolutions.com}
-  s.files = ["VERSION.yml", "lib/awesome_backup", "lib/awesome_backup/recipes", "lib/awesome_backup/recipes/backup.rb", "lib/awesome_backup/recipes.rb", "lib/awesome_backup/tasks", "lib/awesome_backup/tasks/backup.rake", "lib/awesome_backup/tasks/database.rake", "lib/awesome_backup.rb"]
+  s.files = ["VERSION.yml", "lib/awesome_backup", "lib/awesome_backup/recipes", "lib/awesome_backup/recipes/backup.rb", "lib/awesome_backup/recipes.rb", "lib/awesome_backup/tasks", "lib/awesome_backup/tasks/backup.rake", "lib/awesome_backup/tasks/database.rake", "lib/awesome_backup/tasks.rb", "lib/awesome_backup.rb"]
   s.homepage = %q{http://github.com/collectiveidea/awesome-backup/tree/master}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.1}
