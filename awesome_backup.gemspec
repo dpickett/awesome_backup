@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{awesome_backup}
-  s.version = "0.5.0"
+  s.version = "0.5.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Collective Ideas"]
-  s.date = %q{2009-01-15}
+  s.date = %q{2009-01-22}
   s.description = %q{}
   s.email = %q{dpickett@enlightsolutions.com}
   s.files = ["VERSION.yml", "lib/awesome_backup", "lib/awesome_backup/recipes", "lib/awesome_backup/recipes/backup.rb", "lib/awesome_backup/recipes.rb", "lib/awesome_backup/tasks", "lib/awesome_backup/tasks/backup.rake", "lib/awesome_backup/tasks/database.rake", "lib/awesome_backup.rb"]
