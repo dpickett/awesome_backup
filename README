@@ -1,6 +1,13 @@
 = Awesome Backups
 
-This Rails plugin provides Rake and Capistrano tasks for making database backups.
+This Rails plugin/gem provides Rake and Capistrano tasks for making database backups.
+
+== Installation
+
+If you're using Awesome Backups as a gem, place the following line at the
+end of your deploy recipe or Capfile:
+
+require "awesome_backup/recipes"
 
 == Rake
 
