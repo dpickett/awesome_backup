@@ -1,3 +1,8 @@
+load File.join(
+  File.dirname(__FILE__), "tasks",
+  "awesome_backup.rake"
+)
+
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
