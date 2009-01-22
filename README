@@ -9,6 +9,10 @@ end of your deploy recipe or Capfile:
 
 require "awesome_backup/recipes"
 
+And this in your Rakefile:
+
+begin require 'awesome_backup/tasks' rescue LoadError end
+
 == Rake
 
 You can create new backups, specifying which tables to skip. This will create a
